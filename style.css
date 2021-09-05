@@ -1,0 +1,119 @@
+
+
+body{
+    font-family: 'Arvo','sans serif';
+}
+
+.container{
+    width: 70%;
+    margin:auto;
+    background-color: white;
+}
+
+.header-container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #4d4d4d;
+}
+
+.image-container{
+    display: flex;
+    min-width: 5rem;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+    padding:20px;
+    box-sizing: border-box;
+}
+.contact-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.image{
+    height: 150px;
+    width: 120px;
+    border-radius: 5%;
+}
+
+.contact-container h1{
+    color: #fff;
+    font-weight: 600px;
+    margin-bottom: 5px; 
+}
+
+.contact-container h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.content-header{
+    background-color:#d9d9d9;
+    padding: 10px 0 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.career-objective{
+    padding: 0 0 0 20px;
+}
+
+.container-text-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+}
+
+.list-style{
+    padding-left: 20px;
+    list-style: none;
+}
+
+@media screen and (max-width: 750px)  {
+    .container{
+        width: 100%;
+    }
+    .image-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-container{
+        width: 100%;
+        align-items: center;
+    }
+    .extra{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
